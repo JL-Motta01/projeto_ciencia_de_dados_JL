@@ -1,0 +1,11 @@
+prefix=/home/labri_joaomotta/codigo/fundamentos-de-ciencias-de-dados/env/env_jl
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/home/labri_joaomotta/codigo/fundamentos-de-ciencias-de-dados/env/env_jl/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.2
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

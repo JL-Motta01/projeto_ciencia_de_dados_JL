@@ -1,0 +1,53 @@
+{
+  "build": "h166bdaf_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "zlib 1.2.12 *_0"
+  ],
+  "depends": [
+    "libgcc-ng >=12"
+  ],
+  "extracted_package_dir": "/opt/anaconda/pkgs/libzlib-1.2.12-h166bdaf_0",
+  "features": "",
+  "files": [
+    "lib/libz.so.1",
+    "lib/libz.so.1.2.12"
+  ],
+  "fn": "libzlib-1.2.12-h166bdaf_0.tar.bz2",
+  "license": "Zlib",
+  "license_family": "Other",
+  "link": {
+    "source": "/opt/anaconda/pkgs/libzlib-1.2.12-h166bdaf_0",
+    "type": 1
+  },
+  "md5": "6c06394781511bdc3c37512ed7b16730",
+  "name": "libzlib",
+  "package_tarball_full_path": "/opt/anaconda/pkgs/libzlib-1.2.12-h166bdaf_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libz.so.1",
+        "path_type": "softlink",
+        "sha256": "3c6aadaa2b0f712b958d25ce6f85eb2ad379d246bf8f0115fc8eb5f0ea82aa56",
+        "size_in_bytes": 108704
+      },
+      {
+        "_path": "lib/libz.so.1.2.12",
+        "path_type": "hardlink",
+        "sha256": "3c6aadaa2b0f712b958d25ce6f85eb2ad379d246bf8f0115fc8eb5f0ea82aa56",
+        "sha256_in_prefix": "3c6aadaa2b0f712b958d25ce6f85eb2ad379d246bf8f0115fc8eb5f0ea82aa56",
+        "size_in_bytes": 108704
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0b05a169613a5596f1947b6ddd6065a28685016fd9869c736bbcd5c82ce515fa",
+  "size": 63522,
+  "subdir": "linux-64",
+  "timestamp": 1653673419543,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libzlib-1.2.12-h166bdaf_0.tar.bz2",
+  "version": "1.2.12"
+}

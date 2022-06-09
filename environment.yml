@@ -1,0 +1,12 @@
+name: env_jl
+channels: 
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - pandas
+  - beautifulsoup4
+  - tinydb
+  - requests
+  - selenium 
+  - geckodriver

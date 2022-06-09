@@ -1,0 +1,46 @@
+{
+  "build": "h3146498_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc-ng >=9.4.0",
+    "libstdcxx-ng >=9.4.0"
+  ],
+  "extracted_package_dir": "/opt/anaconda/pkgs/geckodriver-0.30.0-h3146498_0",
+  "features": "",
+  "files": [
+    "bin/geckodriver"
+  ],
+  "fn": "geckodriver-0.30.0-h3146498_0.tar.bz2",
+  "license": "MPL-2.0",
+  "license_family": "MOZILLA",
+  "link": {
+    "source": "/opt/anaconda/pkgs/geckodriver-0.30.0-h3146498_0",
+    "type": 1
+  },
+  "md5": "3fda1d7adaee2eeae14d637bf0f2adfa",
+  "name": "geckodriver",
+  "package_tarball_full_path": "/opt/anaconda/pkgs/geckodriver-0.30.0-h3146498_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/geckodriver",
+        "path_type": "hardlink",
+        "sha256": "7cde43bd9a3573fe46b63d1f3b9197d8a5ba6e8d5b3c2d307c4ec9fb3a1e29a5",
+        "sha256_in_prefix": "7cde43bd9a3573fe46b63d1f3b9197d8a5ba6e8d5b3c2d307c4ec9fb3a1e29a5",
+        "size_in_bytes": 10754600
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "geckodriver",
+  "sha256": "372bfb5392a9352fc9a6fe35fd9783030a2cf9d98ca21e7136679bd9646926df",
+  "size": 3156939,
+  "subdir": "linux-64",
+  "timestamp": 1636948314209,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/geckodriver-0.30.0-h3146498_0.tar.bz2",
+  "version": "0.30.0"
+}

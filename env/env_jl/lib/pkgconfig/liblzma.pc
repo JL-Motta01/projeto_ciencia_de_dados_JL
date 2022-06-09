@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/home/labri_joaomotta/codigo/fundamentos-de-ciencias-de-dados/env/env_jl
+exec_prefix=/home/labri_joaomotta/codigo/fundamentos-de-ciencias-de-dados/env/env_jl
+libdir=/home/labri_joaomotta/codigo/fundamentos-de-ciencias-de-dados/env/env_jl/lib
+includedir=/home/labri_joaomotta/codigo/fundamentos-de-ciencias-de-dados/env/env_jl/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.2.5
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lrt  -lpthread

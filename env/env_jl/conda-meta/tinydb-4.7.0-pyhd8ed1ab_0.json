@@ -1,0 +1,232 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/opt/anaconda/pkgs/tinydb-4.7.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/tinydb-4.7.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/tinydb-4.7.0.dist-info/LICENSE",
+    "lib/python3.10/site-packages/tinydb-4.7.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/tinydb-4.7.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/tinydb-4.7.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/tinydb-4.7.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/tinydb-4.7.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/tinydb/__init__.py",
+    "lib/python3.10/site-packages/tinydb/database.py",
+    "lib/python3.10/site-packages/tinydb/middlewares.py",
+    "lib/python3.10/site-packages/tinydb/mypy_plugin.py",
+    "lib/python3.10/site-packages/tinydb/operations.py",
+    "lib/python3.10/site-packages/tinydb/py.typed",
+    "lib/python3.10/site-packages/tinydb/queries.py",
+    "lib/python3.10/site-packages/tinydb/storages.py",
+    "lib/python3.10/site-packages/tinydb/table.py",
+    "lib/python3.10/site-packages/tinydb/utils.py",
+    "lib/python3.10/site-packages/tinydb/version.py",
+    "lib/python3.10/site-packages/tinydb/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/tinydb/__pycache__/database.cpython-310.pyc",
+    "lib/python3.10/site-packages/tinydb/__pycache__/middlewares.cpython-310.pyc",
+    "lib/python3.10/site-packages/tinydb/__pycache__/mypy_plugin.cpython-310.pyc",
+    "lib/python3.10/site-packages/tinydb/__pycache__/operations.cpython-310.pyc",
+    "lib/python3.10/site-packages/tinydb/__pycache__/queries.cpython-310.pyc",
+    "lib/python3.10/site-packages/tinydb/__pycache__/storages.cpython-310.pyc",
+    "lib/python3.10/site-packages/tinydb/__pycache__/table.cpython-310.pyc",
+    "lib/python3.10/site-packages/tinydb/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/tinydb/__pycache__/version.cpython-310.pyc"
+  ],
+  "fn": "tinydb-4.7.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/opt/anaconda/pkgs/tinydb-4.7.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "0cd0e331a443308e9421654656e55696",
+  "name": "tinydb",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/anaconda/pkgs/tinydb-4.7.0-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/tinydb-4.7.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/tinydb-4.7.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "b0e2a2d39271e3d96b717d7be8235ac413d74797bf7f742f0801cfaad6c8c912",
+        "sha256_in_prefix": "b0e2a2d39271e3d96b717d7be8235ac413d74797bf7f742f0801cfaad6c8c912",
+        "size_in_bytes": 1080
+      },
+      {
+        "_path": "site-packages/tinydb-4.7.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c00f18434e1bcb3661457959cb7b55bab9859f988d455d184f14dfb4d5255b11",
+        "sha256_in_prefix": "c00f18434e1bcb3661457959cb7b55bab9859f988d455d184f14dfb4d5255b11",
+        "size_in_bytes": 6187
+      },
+      {
+        "_path": "site-packages/tinydb-4.7.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "e5761fbcf52a5a633c587574c9f87ce51698e68e3f72fbde0edfd266ad32381a",
+        "sha256_in_prefix": "e5761fbcf52a5a633c587574c9f87ce51698e68e3f72fbde0edfd266ad32381a",
+        "size_in_bytes": 1862
+      },
+      {
+        "_path": "site-packages/tinydb-4.7.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tinydb-4.7.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "cb778389a15548d4cf6e0cdf367d27627e6d127d5c5fa5ab75eb43950338c56c",
+        "sha256_in_prefix": "cb778389a15548d4cf6e0cdf367d27627e6d127d5c5fa5ab75eb43950338c56c",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "site-packages/tinydb-4.7.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "e33a80ceb4fd508d91ad16fe2700844bea86b3f1b1736084455fd3ca9f89c8c6",
+        "sha256_in_prefix": "e33a80ceb4fd508d91ad16fe2700844bea86b3f1b1736084455fd3ca9f89c8c6",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "site-packages/tinydb/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "85e24b65854b349dad30882e57d03f6e0f3b5fb8d2108d6723b2490702884081",
+        "sha256_in_prefix": "85e24b65854b349dad30882e57d03f6e0f3b5fb8d2108d6723b2490702884081",
+        "size_in_bytes": 940
+      },
+      {
+        "_path": "site-packages/tinydb/database.py",
+        "path_type": "hardlink",
+        "sha256": "ad4e8a0312d48ea187b104935e49d17d53665a2a3d43af78a19c2fd60753e4f7",
+        "sha256_in_prefix": "ad4e8a0312d48ea187b104935e49d17d53665a2a3d43af78a19c2fd60753e4f7",
+        "size_in_bytes": 8711
+      },
+      {
+        "_path": "site-packages/tinydb/middlewares.py",
+        "path_type": "hardlink",
+        "sha256": "3bcf959643d7aea87c006ffcf347f94048fb45a48948255ee902c04bc28095ee",
+        "sha256_in_prefix": "3bcf959643d7aea87c006ffcf347f94048fb45a48948255ee902c04bc28095ee",
+        "size_in_bytes": 3853
+      },
+      {
+        "_path": "site-packages/tinydb/mypy_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "62eff09026209ad384b88b85e7c5a804eff3ef66b20c4bd0a0fe7c9f32d15d55",
+        "sha256_in_prefix": "62eff09026209ad384b88b85e7c5a804eff3ef66b20c4bd0a0fe7c9f32d15d55",
+        "size_in_bytes": 1070
+      },
+      {
+        "_path": "site-packages/tinydb/operations.py",
+        "path_type": "hardlink",
+        "sha256": "09fc2723fbc2327abbf5596a6328a014dd5db4c23f97ac1e87cd75dfe1c7082f",
+        "sha256_in_prefix": "09fc2723fbc2327abbf5596a6328a014dd5db4c23f97ac1e87cd75dfe1c7082f",
+        "size_in_bytes": 1155
+      },
+      {
+        "_path": "site-packages/tinydb/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tinydb/queries.py",
+        "path_type": "hardlink",
+        "sha256": "78136a20dc54e2fba323ec0099d58439759aa80960244ef14a6496c755f971c4",
+        "sha256_in_prefix": "78136a20dc54e2fba323ec0099d58439759aa80960244ef14a6496c755f971c4",
+        "size_in_bytes": 16001
+      },
+      {
+        "_path": "site-packages/tinydb/storages.py",
+        "path_type": "hardlink",
+        "sha256": "94356d7b3089b63826424b361a879c6ad0bf1f190ec7c4d7d2253d4511cfbbc9",
+        "sha256_in_prefix": "94356d7b3089b63826424b361a879c6ad0bf1f190ec7c4d7d2253d4511cfbbc9",
+        "size_in_bytes": 4726
+      },
+      {
+        "_path": "site-packages/tinydb/table.py",
+        "path_type": "hardlink",
+        "sha256": "a76e2f47672c97fcd3e372aae8743d031f1311ca428cf7d5c82358c491d844c6",
+        "sha256_in_prefix": "a76e2f47672c97fcd3e372aae8743d031f1311ca428cf7d5c82358c491d844c6",
+        "size_in_bytes": 25206
+      },
+      {
+        "_path": "site-packages/tinydb/utils.py",
+        "path_type": "hardlink",
+        "sha256": "42c7771f2d739bdb811985781a22d33f2f9aef0a1e3fb87da1631ed2b400e140",
+        "sha256_in_prefix": "42c7771f2d739bdb811985781a22d33f2f9aef0a1e3fb87da1631ed2b400e140",
+        "size_in_bytes": 4564
+      },
+      {
+        "_path": "site-packages/tinydb/version.py",
+        "path_type": "hardlink",
+        "sha256": "1b7d9dd945465f3bca1263467054e9e35dcf29674a1647235d2bf1debd9d49e4",
+        "sha256_in_prefix": "1b7d9dd945465f3bca1263467054e9e35dcf29674a1647235d2bf1debd9d49e4",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tinydb/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tinydb/__pycache__/database.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tinydb/__pycache__/middlewares.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tinydb/__pycache__/mypy_plugin.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tinydb/__pycache__/operations.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tinydb/__pycache__/queries.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tinydb/__pycache__/storages.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tinydb/__pycache__/table.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tinydb/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tinydb/__pycache__/version.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "tinydb",
+  "sha256": "7413d8edbb7d987aab0925b468d633c059046bc717e7ba4184a55e94a0b3060c",
+  "size": 24306,
+  "subdir": "noarch",
+  "timestamp": 1645296397403,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/tinydb-4.7.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "4.7.0"
+}

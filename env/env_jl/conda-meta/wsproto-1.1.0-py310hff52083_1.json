@@ -1,0 +1,238 @@
+{
+  "build": "py310hff52083_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "h11 >=0.9.0,<1.0",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "extracted_package_dir": "/opt/anaconda/pkgs/wsproto-1.1.0-py310hff52083_1",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/wsproto-1.1.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/wsproto-1.1.0.dist-info/LICENSE",
+    "lib/python3.10/site-packages/wsproto-1.1.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/wsproto-1.1.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/wsproto-1.1.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/wsproto-1.1.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/wsproto-1.1.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/wsproto-1.1.0.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/wsproto/__init__.py",
+    "lib/python3.10/site-packages/wsproto/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/wsproto/__pycache__/connection.cpython-310.pyc",
+    "lib/python3.10/site-packages/wsproto/__pycache__/events.cpython-310.pyc",
+    "lib/python3.10/site-packages/wsproto/__pycache__/extensions.cpython-310.pyc",
+    "lib/python3.10/site-packages/wsproto/__pycache__/frame_protocol.cpython-310.pyc",
+    "lib/python3.10/site-packages/wsproto/__pycache__/handshake.cpython-310.pyc",
+    "lib/python3.10/site-packages/wsproto/__pycache__/typing.cpython-310.pyc",
+    "lib/python3.10/site-packages/wsproto/__pycache__/utilities.cpython-310.pyc",
+    "lib/python3.10/site-packages/wsproto/connection.py",
+    "lib/python3.10/site-packages/wsproto/events.py",
+    "lib/python3.10/site-packages/wsproto/extensions.py",
+    "lib/python3.10/site-packages/wsproto/frame_protocol.py",
+    "lib/python3.10/site-packages/wsproto/handshake.py",
+    "lib/python3.10/site-packages/wsproto/py.typed",
+    "lib/python3.10/site-packages/wsproto/typing.py",
+    "lib/python3.10/site-packages/wsproto/utilities.py"
+  ],
+  "fn": "wsproto-1.1.0-py310hff52083_1.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/opt/anaconda/pkgs/wsproto-1.1.0-py310hff52083_1",
+    "type": 1
+  },
+  "md5": "be6cacc2432cd6ba4d0eaa5672b0e346",
+  "name": "wsproto",
+  "package_tarball_full_path": "/opt/anaconda/pkgs/wsproto-1.1.0-py310hff52083_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/wsproto-1.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto-1.1.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "c0329a8dbf3437b095f7f5cf4257d6bb855e07120cae8786586073ff7a699959",
+        "sha256_in_prefix": "c0329a8dbf3437b095f7f5cf4257d6bb855e07120cae8786586073ff7a699959",
+        "size_in_bytes": 1093
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto-1.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "db36dee1179fea127e9c85d83c57a87672f64a82225dde831d40615e00d2aa77",
+        "sha256_in_prefix": "db36dee1179fea127e9c85d83c57a87672f64a82225dde831d40615e00d2aa77",
+        "size_in_bytes": 5609
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto-1.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "a57fc6b6fe3b3590f8a8890aecbf92018ed0f988bd0144a79c93af1efcda4383",
+        "sha256_in_prefix": "a57fc6b6fe3b3590f8a8890aecbf92018ed0f988bd0144a79c93af1efcda4383",
+        "size_in_bytes": 1750
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto-1.1.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto-1.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto-1.1.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "74eecd3ff5c419c2b305df44272d730e5eddaf2cf297cd015894d5631f98e624",
+        "sha256_in_prefix": "74eecd3ff5c419c2b305df44272d730e5eddaf2cf297cd015894d5631f98e624",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto-1.1.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "054748af02f5d73113d1f916918449d7264aac47ef0c5f4366a8e10013a2a3a6",
+        "sha256_in_prefix": "054748af02f5d73113d1f916918449d7264aac47ef0c5f4366a8e10013a2a3a6",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b76c4db8916db3315034dac08b3b53a668d1882c2b685e7a0656cef04ef7911c",
+        "sha256_in_prefix": "b76c4db8916db3315034dac08b3b53a668d1882c2b685e7a0656cef04ef7911c",
+        "size_in_bytes": 2852
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "50f230c5a0057a6b082f7edd613599cc641a983e19aa8395f99c33a0e053dd51",
+        "sha256_in_prefix": "50f230c5a0057a6b082f7edd613599cc641a983e19aa8395f99c33a0e053dd51",
+        "size_in_bytes": 3176
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto/__pycache__/connection.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5f578f512d6fb65916d00ed3f991e9033110f92ec240b4ba21f5abb9d6743e66",
+        "sha256_in_prefix": "5f578f512d6fb65916d00ed3f991e9033110f92ec240b4ba21f5abb9d6743e66",
+        "size_in_bytes": 5039
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto/__pycache__/events.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a40909dfe34cb86792930b9968ae1b5cb0ff6339ebb4a302d14cf9183ee3b09e",
+        "sha256_in_prefix": "a40909dfe34cb86792930b9968ae1b5cb0ff6339ebb4a302d14cf9183ee3b09e",
+        "size_in_bytes": 9415
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto/__pycache__/extensions.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "579f6368ac17c047864b677d4f7beaaf32e9e5d6bff62146a10d1964639698bc",
+        "sha256_in_prefix": "579f6368ac17c047864b677d4f7beaaf32e9e5d6bff62146a10d1964639698bc",
+        "size_in_bytes": 8314
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto/__pycache__/frame_protocol.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf0b0b7385d3e316f43bfd62c0984d1b56781859aefdc3cb239e56af8290d0ff",
+        "sha256_in_prefix": "bf0b0b7385d3e316f43bfd62c0984d1b56781859aefdc3cb239e56af8290d0ff",
+        "size_in_bytes": 16122
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto/__pycache__/handshake.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7f24835e810b882e1b26f5a19fbabedbe1bb5892845cffc38eb4afc5d8d4212b",
+        "sha256_in_prefix": "7f24835e810b882e1b26f5a19fbabedbe1bb5892845cffc38eb4afc5d8d4212b",
+        "size_in_bytes": 11541
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto/__pycache__/typing.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "76d52ed30e3ac72a48b28891663f5027ce5d251fc1cc660ecba17078962426e5",
+        "sha256_in_prefix": "76d52ed30e3ac72a48b28891663f5027ce5d251fc1cc660ecba17078962426e5",
+        "size_in_bytes": 224
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto/__pycache__/utilities.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "22e393cd8e3f9950aa496e425f26300dd8a43e560d5c906966aec6e3d4eac046",
+        "sha256_in_prefix": "22e393cd8e3f9950aa496e425f26300dd8a43e560d5c906966aec6e3d4eac046",
+        "size_in_bytes": 2955
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto/connection.py",
+        "path_type": "hardlink",
+        "sha256": "459b7f6cf45886a9a12b4ccfc2506305ef2031b06cbea7bc8fad3c6cc6a1d8cd",
+        "sha256_in_prefix": "459b7f6cf45886a9a12b4ccfc2506305ef2031b06cbea7bc8fad3c6cc6a1d8cd",
+        "size_in_bytes": 6760
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto/events.py",
+        "path_type": "hardlink",
+        "sha256": "0d6ed843cdb7a0adcc8d71ea70fbe32738c11a4e541ae30efeba4d9ca826996f",
+        "sha256_in_prefix": "0d6ed843cdb7a0adcc8d71ea70fbe32738c11a4e541ae30efeba4d9ca826996f",
+        "size_in_bytes": 7979
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto/extensions.py",
+        "path_type": "hardlink",
+        "sha256": "5659e88efb02d803bbbdb524c3f4cea8282d9876f5752a655de4708cc7e30a8e",
+        "sha256_in_prefix": "5659e88efb02d803bbbdb524c3f4cea8282d9876f5752a655de4708cc7e30a8e",
+        "size_in_bytes": 11211
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto/frame_protocol.py",
+        "path_type": "hardlink",
+        "sha256": "ec93c3c1882ab3c1651cdd62d3cf13eba92864e490660ea98e62a624edf30464",
+        "sha256_in_prefix": "ec93c3c1882ab3c1651cdd62d3cf13eba92864e490660ea98e62a624edf30464",
+        "size_in_bytes": 23342
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto/handshake.py",
+        "path_type": "hardlink",
+        "sha256": "0901b32565cc9930fbaac8a798601be566aedec18f8220817c714f0e9029d2f5",
+        "sha256_in_prefix": "0901b32565cc9930fbaac8a798601be566aedec18f8220817c714f0e9029d2f5",
+        "size_in_bytes": 17998
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto/py.typed",
+        "path_type": "hardlink",
+        "sha256": "b28c3db284f03fd4ff80401049587b19bf3ce79874e0dc2686cd967be2518193",
+        "sha256_in_prefix": "b28c3db284f03fd4ff80401049587b19bf3ce79874e0dc2686cd967be2518193",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto/typing.py",
+        "path_type": "hardlink",
+        "sha256": "4727fa78e840cdf6651c21442e289ac83ccda9d5d01bb24a71c6e53aa371e96a",
+        "sha256_in_prefix": "4727fa78e840cdf6651c21442e289ac83ccda9d5d01bb24a71c6e53aa371e96a",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto/utilities.py",
+        "path_type": "hardlink",
+        "sha256": "e6a98f5d2521529d8611282f80869c67b378baa774bc18a385557bb7a5d3899c",
+        "sha256_in_prefix": "e6a98f5d2521529d8611282f80869c67b378baa774bc18a385557bb7a5d3899c",
+        "size_in_bytes": 2816
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d9a473f46ff23656901f8db28b4925a10f471a7657058b4bfbfc8183221c9cb5",
+  "size": 42621,
+  "subdir": "linux-64",
+  "timestamp": 1652747845268,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/wsproto-1.1.0-py310hff52083_1.tar.bz2",
+  "version": "1.1.0"
+}
