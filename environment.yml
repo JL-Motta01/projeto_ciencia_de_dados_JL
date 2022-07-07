@@ -10,3 +10,4 @@ dependencies:
   - requests
   - selenium 
   - geckodriver
+  - lxml
