@@ -19,7 +19,7 @@ def acessar_pagina(url):
     html = BeautifulSoup(response, 'lxml', from_encoding = response.info().get_param("charset"))
     return html
 
-def paginas_com_url_noticias ():
+def paginas():
     """Percorre as páginas onde ficam os links"""
     lista_url_noticias = []
     contador = 0
@@ -33,7 +33,7 @@ def paginas_com_url_noticias ():
 def coleta_link():
     """Coleta os links de cada página que contém noticias"""
     lista_links=[]
-    for url in paginas_com_url_noticias():
+    for url in paginas():
         html = acessar_pagina(url)
         noticias = html.find_all("h3", class_=["g-chamada__titulo"] )
         for noticia in noticias:
@@ -41,7 +41,7 @@ def coleta_link():
             lista_links.append(links)
     return lista_links
 
-def coleta_conteudo():
+def extrair_info():
     """Responsável por coletar título, parágrafo, Tags, atualização e data das noticias"""
     db = TinyDB(f"{DIR_LOCAL}/db_noticia.json", ensure_ascii=False)
     User = Query()
@@ -64,9 +64,11 @@ def coleta_conteudo():
             paragrafos = noticias.find('div', class_="g-artigo__texto-principal").find_all(['p','h3','h2','h1'])
             for conteudo in paragrafos:
                 if conteudo.name == 'h3' or conteudo.name == 'h2' or conteudo.name == 'h1':
+                    conteudo = conteudo.rstrip('\n')
                     texto = conteudo.text
                     texto = texto.upper()
                 else:
+                    conteudo = conteudo.rstrip('\n')
                     texto = conteudo.text 
                 lista_conteudo.append(texto)
         except:
@@ -92,7 +94,7 @@ def coleta_conteudo():
 
 def main ():
     """Função principal"""
-    coleta_conteudo()
+    extrair_info()
 
 if __name__ == "__main__":
     main()
